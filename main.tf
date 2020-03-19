@@ -3,7 +3,7 @@ variable "lannisters" {
   default = ["tywin", "joanna", "jaime", "cersei", "tyrion", "lancel", "tyos"]
 }
 
-resource "random_shuffle" "lannisters" {
+resource "random_shuffle" "lannister" {
   input = [
     for lannister in var.lannisters:
     upper(lannister)
