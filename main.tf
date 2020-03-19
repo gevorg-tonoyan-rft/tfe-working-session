@@ -14,4 +14,4 @@ output "lannisters" {
   value = random_shuffle.lannister.result
 }
 
-# version: 1
+# version: 2
